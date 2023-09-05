@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #SBATCH --time=2:00:00
 #SBATCH --nodes=1
-#SBATCH --gpus-per-node=v100:1
+#SBATCH --gpus-per-node=1
 #SBATCH --cpus-per-gpu=4  
 #SBATCH --mem=2GB
 #SBATCH --partition=debug 
