@@ -1,9 +1,9 @@
 #!/bin/bash --login
-#SBATCH --time=1:00:00
+#SBATCH --time=2:00:00
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=v100:1
-#SBATCH --cpus-per-gpu=6  
-#SBATCH --mem=64G
+#SBATCH --cpus-per-gpu=4  
+#SBATCH --mem=32G
 #SBATCH --partition=debug 
 #SBATCH --job-name=launch-jupyter-server
 #SBATCH --mail-type=ALL
